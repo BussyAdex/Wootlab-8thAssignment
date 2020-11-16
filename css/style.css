@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+.searchBox{
+    margin: 20px;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    background: rgb(0, 0, 65);
+    color: antiquewhite;
+}
+.moviesearch{
+    background: bisque;
+    height: 100vh;
+}
+
+#searchText{
+    height: 35px;
+    width: 400px;
+}
+#searchText:focus{
+    border: 2px solid blue;
+    color: gold;
+    background: gray;
+}
+.searchResult{
+    background: rgb(136, 136, 238);
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    height: 200px;
+}
+.img-result{
+    height: 200px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.description-result{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.description-result h2{
+    color: red;
+}
+.description-result p{
+    color: rgb(2, 2, 73);
+    font-weight: bolder;
+}
